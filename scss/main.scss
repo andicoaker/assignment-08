@@ -5,6 +5,7 @@
 body{
   margin: 0;
   font-family: "sans-serif";
+  background-color: #51ae79;
 }
 img {
   width: 100%;
@@ -14,6 +15,8 @@ img {
 .navbar {
   background-color: #51ae79;
   height: 100px;
+  margin: 0;
+  border: 0;
 }
 
 .fa {
@@ -35,8 +38,8 @@ img {
   margin-left: 40px;
 }
 
-.row {
-  background-color: #51ae79;
+.emp-thumbnails{
+
 }
 
 .company-mission {
@@ -73,4 +76,20 @@ h3 {
 
 .email {
   color: #7dd895;
+}
+
+.splash {
+  position: relative;
+}
+
+.small-but-mighty{
+  width: 33.3%;
+  // position: absolute;
+
+}
+
+@media screen and (min-width: 1000px){
+  .thumbnail{
+    width: 100%;
+  }
 }
